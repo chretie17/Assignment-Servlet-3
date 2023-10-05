@@ -174,6 +174,12 @@
          <label for="certificate">Upload Certificate(s):</label>
         <input type="file" id="certificate" name="certificate" multiple accept=".pdf,.doc,.docx"><br>
         </div>
+<label for="language">Preferred Language:</label>
+    <select id="language" name="language">
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">French</option>
+        <option value="Kinyarwanda">Kinyarwanda</option>
 
         <input type="submit" value="Submit">
     </form>
